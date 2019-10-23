@@ -5,7 +5,7 @@ namespace LSP_Violating
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             try 
             { 
@@ -29,7 +29,7 @@ namespace LSP_Violating
                 foreach (IAnimal animal in animals)
                 {
                     //get the name of each animal (IAnimal contract)
-                    Console.WriteLine(String.Format("Hi {0}", animal.Name));
+                    Console.WriteLine("Hi {0}", animal.Name);
 
                     //each one of the animals have to eat (IAnimal contract)
                     animal.Eat();

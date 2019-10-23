@@ -5,29 +5,23 @@ using System.Text;
 namespace LSP_Violating
 {
     /// <summary>
-    /// Class pig implements IAnimal contract.
+    /// Class Pig implements IAnimal contract.
     /// </summary>
     class Pig : IAnimal
     {
-        //_name private field
-        private string _name;
-
         /// <summary>
-        ///    Name read-only instance property
+        /// Pig Name read-only instance property
         /// </summary>
-        public string Name
-        {
-            get => _name;
-        }
+        public string Name { get; }
 
         /// <summary> 
-        /// Constructor
+        /// Pig Constructor
         /// </summary> 
         /// <param name="name">Pig name</param> 
         public Pig(string name)
         {
-            _name = name;
-            Console.WriteLine("New pig with name {0} was borned!", _name);
+            Name = name;
+            Console.WriteLine("New pig named {0} was borned!", Name);
         }
          
         /// <summary> 
@@ -35,7 +29,7 @@ namespace LSP_Violating
         /// </summary> 
         public void Eat()
         {
-            Console.WriteLine(String.Format("{0} and eats almost everything...", _name));
+            Console.WriteLine("{0} and eats almost everything...", Name);
         }
 
         /// <summary> 

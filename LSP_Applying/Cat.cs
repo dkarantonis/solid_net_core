@@ -5,20 +5,14 @@ using System.Text;
 namespace LSP_Applying
 {
     /// <summary>
-    /// Class cat implements IAnimal contract.
+    /// Class Cat implements IAnimal contract.
     /// </summary>
     class Cat : IAnimal
     {
-        //_name private field
-        private string _name;
-
         /// <summary>
         /// Cat Name read-only instance property
         /// </summary>
-        public string Name  
-        {
-            get => _name;
-        }
+        public string Name { get; }
 
         /// <summary> 
         /// Cat Constructor
@@ -26,8 +20,8 @@ namespace LSP_Applying
         /// <param name="name">Cat name</param> 
         public Cat(string name)
         {
-            _name = name;
-            Console.WriteLine("New cat with name {0} was borned!", _name);
+            Name = name;
+            Console.WriteLine("New cat named {0} was borned!", Name);
         }
 
         /// <summary> 
@@ -35,7 +29,7 @@ namespace LSP_Applying
         /// </summary> 
         public void Eat()
         {
-            Console.WriteLine(String.Format("{0} eats fish...", _name));
+            Console.WriteLine("{0} eats fish...", Name);
         }
 
         /// <summary> 
