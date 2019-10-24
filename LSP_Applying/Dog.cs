@@ -5,7 +5,7 @@ using System.Text;
 namespace LSP_Applying
 {
     /// <summary>
-    /// Class Dog implements IAnimal contract.
+    /// Class Dog implements IAnimal contract
     /// </summary>
     class Dog : IAnimal
     {

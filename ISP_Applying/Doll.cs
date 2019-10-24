@@ -5,7 +5,7 @@ using System.Text;
 namespace ISP_Applying
 {
     /// <summary>
-    /// Class Doll implements IToy / ITalk contracts.
+    /// Class Doll implements IToy / ITalk contracts
     /// </summary>
     class Doll : IToy, ITalk
     {

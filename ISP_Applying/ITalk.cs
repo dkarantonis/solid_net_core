@@ -5,7 +5,7 @@ using System.Text;
 namespace ISP_Applying
 {
     /// <summary>
-    /// Interface to be implemented by talkable entities.
+    /// Interface to be implemented by talkable entities
     /// </summary>
     interface ITalk
     {

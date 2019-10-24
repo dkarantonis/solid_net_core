@@ -10,6 +10,14 @@ namespace DIP_Violating
     class Email
     {
         /// <summary> 
+        /// Email Constructor
+        /// </summary> 
+        public Email()
+        {
+            Console.WriteLine("New Email object created!");
+        }
+
+        /// <summary> 
         /// Email Send instance method
         /// </summary>
         public void SendEmail()

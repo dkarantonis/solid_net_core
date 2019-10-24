@@ -5,7 +5,7 @@ using System.Text;
 namespace ISP_Violating
 {
     /// <summary>
-    /// Class Plane implements IToy contract.
+    /// Class Plane implements IToy contract
     /// </summary>
     class Plane : IToy
     {

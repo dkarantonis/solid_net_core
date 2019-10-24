@@ -10,6 +10,14 @@ namespace DIP_Violating
     class SMS
     {
         /// <summary> 
+        /// SMS Constructor
+        /// </summary> 
+        public SMS()
+        {
+            Console.WriteLine("New SMS object created!");
+        }
+
+        /// <summary> 
         /// SMS Send instance method
         /// </summary>
         public void SendSMS()

@@ -14,8 +14,11 @@ namespace DIP_Violating
                 Console.WriteLine("Creating the notification object...");
                 Console.WriteLine();
 
-                //create Notification to send email / sms message
+                //create Notification object
                 Notification notification = new Notification();
+                Console.WriteLine();
+
+                //send email / sms message
                 notification.SendNotificationViaEmail();
                 notification.SendNotificationViaSMS();
 

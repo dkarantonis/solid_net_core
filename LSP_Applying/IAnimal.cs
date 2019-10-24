@@ -5,7 +5,7 @@ using System.Text;
 namespace LSP_Applying
 {
     /// <summary>
-    /// Interface to be implemented by animals.
+    /// Interface to be implemented by animals
     /// </summary>
     interface IAnimal
     {

@@ -14,12 +14,13 @@ namespace DIP_Applying
                 Console.WriteLine("Creating the notification objects...");
                 Console.WriteLine();
 
-                //create Notification to send email message
+                //create Notifications objects
                 Notification notificationEmail = new Notification(new Email());
-                notificationEmail.SendNotification();
-
-                //create Notification to send SMS message
                 Notification notificationSMS = new Notification(new SMS());
+                Console.WriteLine();
+
+                //send email / sms messages
+                notificationEmail.SendNotification();
                 notificationSMS.SendNotification();
 
                 Console.WriteLine();

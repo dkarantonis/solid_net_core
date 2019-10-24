@@ -17,6 +17,8 @@ namespace DIP_Applying
         /// </summary>
         public Notification(IMessenger iMessenger)
         {
+            Console.WriteLine("New notification object created!");
+
             //creates loose-coupled dependency applying DIP (dependency injection via constructor)
             _iMessenger = iMessenger;
         }

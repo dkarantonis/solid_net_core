@@ -5,7 +5,7 @@ using System.Text;
 namespace ISP_Applying
 {
     /// <summary>
-    /// Interface to be implemented by flyable entities.
+    /// Interface to be implemented by flyable entities
     /// </summary>
     interface IFly
     {

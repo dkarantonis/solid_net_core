@@ -5,7 +5,7 @@ using System.Text;
 namespace LSP_Violating
 {
     /// <summary>
-    /// Class Pig implements IAnimal contract.
+    /// Class Pig implements IAnimal contract
     /// </summary>
     class Pig : IAnimal
     {

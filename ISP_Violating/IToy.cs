@@ -5,7 +5,7 @@ using System.Text;
 namespace ISP_Violating
 {
     /// <summary>
-    /// Interface to be implemented by toys.
+    /// Interface to be implemented by toys
     /// </summary>
     interface IToy
     {

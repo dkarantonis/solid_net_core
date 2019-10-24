@@ -18,6 +18,8 @@ namespace DIP_Violating
         /// </summary>
         public Notification()
         {
+            Console.WriteLine("New notification object created!");
+
             //creates tight-coupled dependency between Email and Notifications classes violating DIP
             Email = new Email();
             //creates tight-coupled dependency between SMS and Notifications classes violating DIP
